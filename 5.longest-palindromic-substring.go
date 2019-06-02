@@ -25,8 +25,8 @@ func longestPalindrome(s string) string {
 				cur = j
 				continue
 			}
-			// fmt.Println(s[(i+j-1)/2], s[(i-j-1)/2])
-			if s[(i+j-1)/2] == s[(i-j-1)/2] {
+			// fmt.Println(s[(i+j)/2], s[(i-j-1)/2])
+			if s[(i+j)/2] == s[(i-j-1)/2] {
 				cur = j
 			} else {
 				break
@@ -40,8 +40,8 @@ func longestPalindrome(s string) string {
 	}
 	i, j := index, max
 	// fmt.Println("stop", i, j)
-	// slice char s[(i-j-1)/2] to s[(i+j-1)/2]
-	return s[(i-j-1)/2 : (i+j+1)/2]
+	// slice char s[(i-j)/2] to s[(i+j-1)/2]
+	return s[(i-j)/2 : (i+j+1)/2]
 }
 
 func main() {
