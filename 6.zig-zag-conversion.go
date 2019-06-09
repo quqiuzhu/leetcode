@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /*
  * @lc app=leetcode id=6 lang=golang
  *
@@ -67,8 +65,4 @@ func convert(s string, numRows int) string {
 		buf = append(buf, rows[i]...)
 	}
 	return string(buf)
-}
-
-func main() {
-	fmt.Println(convert("PAYPALISHIRING", 4))
 }

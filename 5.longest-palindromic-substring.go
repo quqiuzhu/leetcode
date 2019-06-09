@@ -1,17 +1,11 @@
 package main
 
-import "fmt"
-
 /*
  * @lc app=leetcode id=5 lang=golang
  *
  * [5] Longest Palindromic Substring
  */
 
-// l length of s
-// index max expanded substring center index
-// max max expanded substring single side length
-//
 func longestPalindrome(s string) string {
 	index, max, cur := 0, 0, 0
 	l, lx := len(s), 2*len(s)+1
@@ -42,8 +36,4 @@ func longestPalindrome(s string) string {
 	// fmt.Println("stop", i, j)
 	// slice char s[(i-j)/2] to s[(i+j-1)/2]
 	return s[(i-j)/2 : (i+j+1)/2]
-}
-
-func main() {
-	fmt.Println(longestPalindrome("bababd"))
 }
