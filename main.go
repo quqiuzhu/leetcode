@@ -5,4 +5,5 @@ func main() {
 	//fmt.Println(convert("PAYPALISHIRING", 4)) //6
 	//fmt.Println(reverse(-123)) //7
 	//fmt.Println(myAtoi("2147483648")) //8
+	// fmt.Println(isPalindrome(121)) //9
 }
