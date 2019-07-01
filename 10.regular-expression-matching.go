@@ -5,6 +5,7 @@ package main
  *
  * [10] Regular Expression Matching
  */
+
 // Item match item divided by star
 type Item struct {
 	chars      []byte
