@@ -10,5 +10,6 @@ func main() {
 	// fmt.Println(isPalindrome(121)) //9
 	// fmt.Println(isMatch("accbbbaababbac", ".*...*c*.")) //10
 	// fmt.Println(maxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7})) //11
-	fmt.Println(intToRoman(2994)) //12
+	// fmt.Println(intToRoman(2994)) //12
+	fmt.Println(romanToInt("MMCMXCIV")) //13
 }
