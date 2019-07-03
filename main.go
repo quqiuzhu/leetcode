@@ -13,8 +13,9 @@ func main() {
 	// fmt.Println(intToRoman(2994)) //12
 	// fmt.Println(romanToInt("MMCMXCIV")) //13
 	// fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"})) //14
-	solutions := threeSum([]int{3, 0, -2, -1, 1, 2}) //15
-	for _, s := range solutions {
-		fmt.Println(s[0], s[1], s[2])
-	}
+	// solutions := threeSum([]int{3, 0, -2, -1, 1, 2}) //15
+	// for _, s := range solutions {
+	// 	fmt.Println(s[0], s[1], s[2])
+	// }
+	fmt.Println(threeSumClosest([]int{-1, 2, 1, -4}, 1)) //16
 }
