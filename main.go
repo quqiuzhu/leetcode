@@ -12,5 +12,9 @@ func main() {
 	// fmt.Println(maxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7})) //11
 	// fmt.Println(intToRoman(2994)) //12
 	// fmt.Println(romanToInt("MMCMXCIV")) //13
-	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"})) //14
+	// fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"})) //14
+	solutions := threeSum([]int{3, 0, -2, -1, 1, 2}) //15
+	for _, s := range solutions {
+		fmt.Println(s[0], s[1], s[2])
+	}
 }
