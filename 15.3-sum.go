@@ -22,22 +22,16 @@ func threeSum(nums []int) [][]int {
 		end := endPosition
 		for mid < end {
 			sum := nums[begin] + nums[mid] + nums[end]
-			if sum < 0 {
-				mid++
-				for nums[mid] == nums[mid-1] && mid < end {
-					mid++
-				}
-			} else if sum > 0 {
-				end--
-				for nums[end] == nums[end+1] && mid < end {
-					end--
-				}
-			} else {
+			if sum == 0 {
 				results = append(results, []int{nums[begin], nums[mid], nums[end]})
+			}
+			if sum <= 0 {
 				mid++
 				for nums[mid] == nums[mid-1] && mid < end {
 					mid++
 				}
+			}
+			if sum >= 0 {
 				end--
 				for nums[end] == nums[end+1] && mid < end {
 					end--
