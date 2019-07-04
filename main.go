@@ -17,5 +17,9 @@ func main() {
 	// for _, s := range solutions {
 	// 	fmt.Println(s[0], s[1], s[2])
 	// }
-	fmt.Println(threeSumClosest([]int{-1, 2, 1, -4}, 1)) //16
+	// fmt.Println(threeSumClosest([]int{-1, 2, 1, -4}, 1)) //16
+	letters := letterCombinations("23") //17
+	for _, s := range letters {
+		fmt.Println(s)
+	}
 }
