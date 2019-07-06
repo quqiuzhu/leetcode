@@ -6,11 +6,6 @@ package main
  * [19] Remove Nth Node From End of List
  */
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	it := head
 	i := 0
