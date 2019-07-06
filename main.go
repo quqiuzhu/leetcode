@@ -2,6 +2,34 @@ package main
 
 import "fmt"
 
+//19
+func removeNthFromEndTest() {
+	var head, it *ListNode
+	items := []int{1, 2}
+	for i := 0; i < len(items); i++ {
+		if head == nil {
+			head = &ListNode{Val: items[i]}
+			it = head
+		} else {
+			it.Next = &ListNode{Val: items[i]}
+			it = it.Next
+		}
+	}
+	it = head
+	for it != nil {
+		fmt.Print(it.Val, "->")
+		it = it.Next
+	}
+	fmt.Println()
+	head = removeNthFromEnd(head, 2)
+	it = head
+	for it != nil {
+		fmt.Print(it.Val, "->")
+		it = it.Next
+	}
+	fmt.Println()
+}
+
 func main() {
 	// fmt.Println(longestPalindrome("bababd")) //5
 	// fmt.Println(convert("PAYPALISHIRING", 4)) //6
@@ -26,28 +54,6 @@ func main() {
 	// for _, s := range solutions {
 	// 	fmt.Println(s[0], s[1], s[2], s[3])
 	// }
-	var head, it *ListNode //19
-	items := []int{1, 2}
-	for i := 0; i < len(items); i++ {
-		if head == nil {
-			head = &ListNode{Val: items[i]}
-			it = head
-		} else {
-			it.Next = &ListNode{Val: items[i]}
-			it = it.Next
-		}
-	}
-	it = head
-	for it != nil {
-		fmt.Print(it.Val, "->")
-		it = it.Next
-	}
-	fmt.Println()
-	head = removeNthFromEnd(head, 2)
-	it = head
-	for it != nil {
-		fmt.Print(it.Val, "->")
-		it = it.Next
-	}
-	fmt.Println()
+	// removeNthFromEndTest()   //19
+	fmt.Println(isValid("([]){}[]")) //20
 }
