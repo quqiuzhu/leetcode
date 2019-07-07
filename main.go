@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(longestPalindrome("bababd")) //5
 	// fmt.Println(convert("PAYPALISHIRING", 4)) //6
@@ -28,7 +30,11 @@ func main() {
 	// l = removeNthFromEnd(l, 2)
 	// l.Dump()
 	// fmt.Println(isValid("([]){}[]")) //20
-	l1 := NewListNode([]int{1, 2, 4})
-	l := mergeTwoLists(l1, nil)
-	l.Dump()
+	// l1 := NewListNode([]int{1, 2, 4}) //21
+	// l := mergeTwoLists(l1, nil)
+	// l.Dump()
+	results := generateParenthesis(4) //22
+	for _, r := range results {
+		fmt.Println(r)
+	}
 }
