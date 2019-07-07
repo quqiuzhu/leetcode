@@ -40,6 +40,8 @@ func main() {
 	// l3 := NewListNode([]int{2, 6})
 	// l := mergeKLists([]*ListNode{l1, l2, l3, nil})
 	// l.Dump()
-	l := swapPairs(NewListNode([]int{1, 2, 3, 4})) // 24
+	// l := swapPairs(NewListNode([]int{1, 2, 3, 4})) // 24
+	// l.Dump()
+	l := reverseKGroup(NewListNode([]int{1, 2, 3, 4, 5, 6}), 2) //25
 	l.Dump()
 }
