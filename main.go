@@ -46,8 +46,14 @@ func main() {
 	// l.Dump()
 	// l := reverseKGroup(NewListNode([]int{1, 2, 3, 4, 5, 6}), 2) //25
 	// l.Dump()
-	nums := []int{1, 1, 2} //26
-	l := removeDuplicates(nums)
+	// nums := []int{1, 1, 2} //26
+	// l := removeDuplicates(nums)
+	// for i := 0; i < l; i++ {
+	// 	fmt.Print(nums[i], "->")
+	// }
+	// fmt.Println("  l:", l)
+	nums := []int{3} //27
+	l := removeElement(nums, 3)
 	for i := 0; i < l; i++ {
 		fmt.Print(nums[i], "->")
 	}
