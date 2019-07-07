@@ -58,5 +58,6 @@ func main() {
 	// 	fmt.Print(nums[i], "->")
 	// }
 	// fmt.Println("  l:", l)
-	fmt.Println(strStr("1aaaa", "a"))
+	// fmt.Println(strStr("1aaaa", "a")) //28
+	fmt.Println(divide(2147483649, -1)) //29
 }
