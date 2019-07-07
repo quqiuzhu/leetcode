@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(longestPalindrome("bababd")) //5
 	// fmt.Println(convert("PAYPALISHIRING", 4)) //6
@@ -42,6 +44,12 @@ func main() {
 	// l.Dump()
 	// l := swapPairs(NewListNode([]int{1, 2, 3, 4})) // 24
 	// l.Dump()
-	l := reverseKGroup(NewListNode([]int{1, 2, 3, 4, 5, 6}), 2) //25
-	l.Dump()
+	// l := reverseKGroup(NewListNode([]int{1, 2, 3, 4, 5, 6}), 2) //25
+	// l.Dump()
+	nums := []int{1, 1, 2} //26
+	l := removeDuplicates(nums)
+	for i := 0; i < l; i++ {
+		fmt.Print(nums[i], "->")
+	}
+	fmt.Println("  l:", l)
 }
