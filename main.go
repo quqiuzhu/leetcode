@@ -52,10 +52,11 @@ func main() {
 	// 	fmt.Print(nums[i], "->")
 	// }
 	// fmt.Println("  l:", l)
-	nums := []int{3} //27
-	l := removeElement(nums, 3)
-	for i := 0; i < l; i++ {
-		fmt.Print(nums[i], "->")
-	}
-	fmt.Println("  l:", l)
+	// nums := []int{3} //27
+	// l := removeElement(nums, 3)
+	// for i := 0; i < l; i++ {
+	// 	fmt.Print(nums[i], "->")
+	// }
+	// fmt.Println("  l:", l)
+	fmt.Println(strStr("1aaaa", "a"))
 }
