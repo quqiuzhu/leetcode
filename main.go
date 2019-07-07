@@ -35,9 +35,11 @@ func main() {
 	// for _, r := range results {
 	// 	fmt.Println(r)
 	// }
-	l1 := NewListNode([]int{1, 4, 5}) //23
-	l2 := NewListNode([]int{1, 3, 4})
-	l3 := NewListNode([]int{2, 6})
-	l := mergeKLists([]*ListNode{l1, l2, l3, nil})
+	// l1 := NewListNode([]int{1, 4, 5}) //23
+	// l2 := NewListNode([]int{1, 3, 4})
+	// l3 := NewListNode([]int{2, 6})
+	// l := mergeKLists([]*ListNode{l1, l2, l3, nil})
+	// l.Dump()
+	l := swapPairs(NewListNode([]int{1, 2, 3, 4})) // 24
 	l.Dump()
 }
