@@ -60,7 +60,12 @@ func main() {
 	// fmt.Println("  l:", l)
 	// fmt.Println(strStr("1aaaa", "a")) //28
 	// fmt.Println(divide(2147483649, -1)) //29
-	rs := findSubstring("barfoothefoobarman", []string{"foo", "bar"}) //30
+	// rs := findSubstring("barfoothefoobarman", []string{"foo", "bar"}) //30
+	// for _, r := range rs {
+	// 	fmt.Println(r)
+	// }
+	rs := []int{1, 2, 4, 3} //31
+	nextPermutation(rs)
 	for _, r := range rs {
 		fmt.Println(r)
 	}
