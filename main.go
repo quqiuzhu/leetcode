@@ -64,9 +64,10 @@ func main() {
 	// for _, r := range rs {
 	// 	fmt.Println(r)
 	// }
-	rs := []int{1, 2, 4, 3} //31
-	nextPermutation(rs)
-	for _, r := range rs {
-		fmt.Println(r)
-	}
+	// rs := []int{1, 2, 4, 3} //31
+	// nextPermutation(rs)
+	// for _, r := range rs {
+	// 	fmt.Println(r)
+	// }
+	fmt.Println(longestValidParentheses("((()))())")) //32
 }
