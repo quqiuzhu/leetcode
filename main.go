@@ -69,5 +69,6 @@ func main() {
 	// for _, r := range rs {
 	// 	fmt.Println(r)
 	// }
-	fmt.Println(longestValidParentheses("((()))())")) //32
+	// fmt.Println(longestValidParentheses("((()))())")) //32
+	fmt.Println(search([]int{4, 5, 6, 7, 0, 1, 2}, 3))
 }
