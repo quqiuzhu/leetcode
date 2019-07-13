@@ -89,5 +89,13 @@ func main() {
 	// for i := 0; i < 9; i++ {
 	// 	fmt.Println(string(sudoku[i]))
 	// }
-	fmt.Println(countAndSay(5)) //38
+	// fmt.Println(countAndSay(5)) //38
+	r := combinationSum([]int{8, 7, 4, 3}, 11) //39
+	for i := 0; i < len(r); i++ {
+		fmt.Print("[")
+		for j := 0; j < len(r[i]); j++ {
+			fmt.Print(r[i][j], ",")
+		}
+		fmt.Println("]")
+	}
 }
