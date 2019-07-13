@@ -74,7 +74,7 @@ func main() {
 	// fmt.Println(searchRange([]int{5, 7, 7, 8, 8, 10}, 7)) //34
 	// fmt.Println(searchInsert([]int{1, 3, 5, 6}, 0)) //35
 	sudoku := [][]byte{
-		[]byte{'8', '3', '.', '.', '7', '.', '.', '.', '.'},
+		[]byte{'5', '3', '.', '.', '7', '.', '.', '.', '.'},
 		[]byte{'6', '.', '.', '1', '9', '5', '.', '.', '.'},
 		[]byte{'.', '9', '8', '.', '.', '.', '.', '6', '.'},
 		[]byte{'8', '.', '.', '.', '6', '.', '.', '.', '3'},
@@ -84,5 +84,9 @@ func main() {
 		[]byte{'.', '.', '.', '4', '1', '9', '.', '.', '5'},
 		[]byte{'.', '.', '.', '.', '8', '.', '.', '7', '9'},
 	}
-	fmt.Println(isValidSudoku(sudoku)) //36
+	// fmt.Println(isValidSudoku(sudoku)) //36
+	solveSudoku(sudoku)
+	for i := 0; i < 9; i++ {
+		fmt.Println(string(sudoku[i]))
+	}
 }
