@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(longestPalindrome("bababd")) //5
 	// fmt.Println(convert("PAYPALISHIRING", 4)) //6
@@ -88,6 +90,7 @@ func main() {
 	// fmt.Println(countAndSay(5)) //38
 	// r := combinationSum([]int{8, 7, 4, 3}, 11) //39
 	// Matrix(r).Dump()
-	r := combinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8) //40
-	Matrix(r).Dump()
+	// r := combinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8) //40
+	// Matrix(r).Dump()
+	fmt.Println(firstMissingPositive([]int{7, 8, 9, 11, 12})) //41
 }
