@@ -71,5 +71,6 @@ func main() {
 	// }
 	// fmt.Println(longestValidParentheses("((()))())")) //32
 	// fmt.Println(search([]int{4, 5, 6, 7, 0, 1, 2}, 3)) //33
-	fmt.Println(searchRange([]int{5, 7, 7, 8, 8, 10}, 7)) //34
+	// fmt.Println(searchRange([]int{5, 7, 7, 8, 8, 10}, 7)) //34
+	fmt.Println(searchInsert([]int{1, 3, 5, 6}, 0))
 }
