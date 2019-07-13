@@ -32,3 +32,17 @@ func NewListNode(items []int) *ListNode {
 	}
 	return head
 }
+
+// Matrix 2d slice
+type Matrix [][]int
+
+// Dump print matrix
+func (m Matrix) Dump() {
+	for i := 0; i < len(m); i++ {
+		fmt.Print("[")
+		for j := 0; j < len(m[i]); j++ {
+			fmt.Print(m[i][j], ",")
+		}
+		fmt.Println("]")
+	}
+}

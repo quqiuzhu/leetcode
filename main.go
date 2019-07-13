@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println(longestPalindrome("bababd")) //5
 	// fmt.Println(convert("PAYPALISHIRING", 4)) //6
@@ -86,16 +84,10 @@ func main() {
 	// }
 	// fmt.Println(isValidSudoku(sudoku)) //36
 	// solveSudoku(sudoku) //37
-	// for i := 0; i < 9; i++ {
-	// 	fmt.Println(string(sudoku[i]))
-	// }
+	// Matrix(sudoku).Dump()
 	// fmt.Println(countAndSay(5)) //38
-	r := combinationSum([]int{8, 7, 4, 3}, 11) //39
-	for i := 0; i < len(r); i++ {
-		fmt.Print("[")
-		for j := 0; j < len(r[i]); j++ {
-			fmt.Print(r[i][j], ",")
-		}
-		fmt.Println("]")
-	}
+	// r := combinationSum([]int{8, 7, 4, 3}, 11) //39
+	// Matrix(r).Dump()
+	r := combinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8) //40
+	Matrix(r).Dump()
 }
