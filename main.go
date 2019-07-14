@@ -93,5 +93,6 @@ func main() {
 	// r := combinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8) //40
 	// Matrix(r).Dump()
 	// fmt.Println(firstMissingPositive([]int{7, 8, 9, 11, 12})) //41
-	fmt.Println(trap([]int{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1})) //42
+	// fmt.Println(trap([]int{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1})) //42
+	fmt.Println(multiply("123", "0")) //43
 }
