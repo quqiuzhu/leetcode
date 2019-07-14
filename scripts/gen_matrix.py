@@ -1,12 +1,22 @@
 #! /usr/bin/python3 
 #! coding: utf-8
 
-def gen(s):
+def gen_byte(s):
     print("[][]byte{")
     for x in s:
         print("[]byte{",end='')
         for c in x:
             print("'%s'" % c,end=',')
+        print("},")
+    print("}")
+
+
+def gen_int(s):
+    print("[][]int{")
+    for x in s:
+        print("[]int{", end='')
+        for c in x:
+            print("%s" % c, end=',')
         print("},")
     print("}")
 
@@ -35,7 +45,23 @@ sudokus.append([
     [".", ".", ".", ".", "8", ".", ".", "7", "9"]
 ])
 
+images = []
+images.append([
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+])
+
+images.append([
+    [5, 1, 9, 11],
+    [2, 4, 8, 10],
+    [13, 3, 6, 7],
+    [15, 14, 12, 16],
+])
+
 if __name__ == "__main__":
-    for s in sudokus:
-        gen(s)
+    # for s in sudokus:
+    #     gen_byte(s)
+    for i in images:
+        gen_int(i)
 

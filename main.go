@@ -97,6 +97,13 @@ func main() {
 	// fmt.Println(jump([]int{2, 3, 1, 1, 4})) //45
 	// r := permute([]int{1, 2, 3}) //46
 	// Matrix(r).Dump()
-	r := permuteUnique([]int{0, 1, 0, 0, 9}) //47
-	Matrix(r).Dump()
+	// r := permuteUnique([]int{0, 1, 0, 0, 9}) //47
+	// Matrix(r).Dump()
+	m := [][]int{
+		[]int{1, 2, 3},
+		[]int{4, 5, 6},
+		[]int{7, 8, 9},
+	}
+	rotate(m) //48
+	Matrix(m).Dump()
 }
