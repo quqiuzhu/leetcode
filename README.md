@@ -1,7 +1,7 @@
 # leetcode
 leetcode golang vscode
 
-## algorithms
+#### algorithms
 
 - dynamic programming 
 - backtracking

@@ -95,6 +95,8 @@ func main() {
 	// fmt.Println(multiply("123", "0")) //43
 	// fmt.Println(dpIsMatch("adceb", "*a*b")) //44
 	// fmt.Println(jump([]int{2, 3, 1, 1, 4})) //45
-	r := permute([]int{1, 2, 3})
+	// r := permute([]int{1, 2, 3}) //46
+	// Matrix(r).Dump()
+	r := permuteUnique([]int{0, 1, 0, 0, 9}) //47
 	Matrix(r).Dump()
 }
