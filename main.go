@@ -1,6 +1,9 @@
 package main
 
+import "fmt"
+
 func main() {
+	fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// fmt.Println(longestPalindrome("bababd")) //5
 	// fmt.Println(convert("PAYPALISHIRING", 4)) //6
 	// fmt.Println(reverse(-123)) //7
@@ -99,11 +102,11 @@ func main() {
 	// Matrix(r).Dump()
 	// r := permuteUnique([]int{0, 1, 0, 0, 9}) //47
 	// Matrix(r).Dump()
-	m := [][]int{
-		[]int{1, 2, 3},
-		[]int{4, 5, 6},
-		[]int{7, 8, 9},
-	}
-	rotate(m) //48
-	Matrix(m).Dump()
+	// m := [][]int{
+	// 	[]int{1, 2, 3},
+	// 	[]int{4, 5, 6},
+	// 	[]int{7, 8, 9},
+	// }
+	// rotate(m) //48
+	// Matrix(m).Dump()
 }
