@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
+	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
+	l1 := NewListNode([]int{9, 9})
+	l2 := NewListNode([]int{9})
+	l := addTwoNumbers(l1, l2) //2
+	l.Dump()
 	// fmt.Println(longestPalindrome("bababd")) //5
 	// fmt.Println(convert("PAYPALISHIRING", 4)) //6
 	// fmt.Println(reverse(-123)) //7
