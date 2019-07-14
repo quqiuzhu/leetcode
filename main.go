@@ -95,5 +95,6 @@ func main() {
 	// fmt.Println(firstMissingPositive([]int{7, 8, 9, 11, 12})) //41
 	// fmt.Println(trap([]int{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1})) //42
 	// fmt.Println(multiply("123", "0")) //43
-	fmt.Println(dpIsMatch("adceb", "*a*b")) //44
+	// fmt.Println(dpIsMatch("adceb", "*a*b")) //44
+	fmt.Println(jump([]int{2, 3, 1, 1, 4})) //45
 }
