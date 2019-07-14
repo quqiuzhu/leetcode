@@ -1,2 +1,8 @@
 # leetcode
-leetcode use golang with vscode
+leetcode golang vscode
+
+## algorithms
+
+- dynamic programming 
+- backtracking
+- greedy
