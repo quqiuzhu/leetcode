@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -24,7 +23,6 @@ func groupAnagrams(strs []string) [][]string {
 		m[a] = append(m[a], i)
 	}
 
-	fmt.Println(m)
 	var rs [][]string
 	for _, idxs := range m {
 		var r []string

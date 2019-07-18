@@ -115,6 +115,7 @@ func main() {
 	// }
 	// rotate(m) //48
 	// Matrix(m).Dump()
-	r := groupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}) //49
-	fmt.Println(r)
+	// r := groupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}) //49
+	// fmt.Println(r)
+	fmt.Println(myPow(2.10000, 3)) //50
 }
