@@ -9,7 +9,7 @@ func main() {
 	// l := addTwoNumbers(l1, l2) //2
 	// l.Dump()
 	// fmt.Println(lengthOfLongestSubstring("abba")) //3
-	fmt.Println(findMedianSortedArrays([]int{1, 3}, []int{2, 4, 5})) //4
+	// fmt.Println(findMedianSortedArrays([]int{1, 3}, []int{2, 4, 5})) //4
 	// fmt.Println(longestPalindrome("bababd")) //5
 	// fmt.Println(convert("PAYPALISHIRING", 4)) //6
 	// fmt.Println(reverse(-123)) //7
@@ -115,4 +115,6 @@ func main() {
 	// }
 	// rotate(m) //48
 	// Matrix(m).Dump()
+	r := groupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}) //49
+	fmt.Println(r)
 }
