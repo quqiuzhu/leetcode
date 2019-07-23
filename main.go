@@ -118,11 +118,12 @@ func main() {
 	// r := groupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}) //49
 	// fmt.Println(r)
 	// fmt.Println(myPow(2.10000, 3)) //50
-	rs := solveNQueens(4) //51
-	for i := 0; i < len(rs); i++ {
-		fmt.Println()
-		for j := 0; j < len(rs[i]); j++ {
-			fmt.Println(rs[i][j])
-		}
-	}
+	// rs := solveNQueens(4) //51
+	// for i := 0; i < len(rs); i++ {
+	// 	fmt.Println()
+	// 	for j := 0; j < len(rs[i]); j++ {
+	// 		fmt.Println(rs[i][j])
+	// 	}
+	// }
+	fmt.Println(totalNQueens(4)) //51
 }
