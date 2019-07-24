@@ -125,5 +125,6 @@ func main() {
 	// 		fmt.Println(rs[i][j])
 	// 	}
 	// }
-	fmt.Println(totalNQueens(4)) //51
+	// fmt.Println(totalNQueens(4)) //52
+	fmt.Println(maxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4})) //53
 }
