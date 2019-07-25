@@ -108,11 +108,11 @@ func main() {
 	// Matrix(r).Dump()
 	// r := permuteUnique([]int{0, 1, 0, 0, 9}) //47
 	// Matrix(r).Dump()
-	m := [][]int{
-		[]int{1, 2, 3},
-		[]int{4, 5, 6},
-		[]int{7, 8, 9},
-	}
+	// m := [][]int{
+	// 	[]int{1, 2, 3},
+	// 	[]int{4, 5, 6},
+	// 	[]int{7, 8, 9},
+	// }
 	// rotate(m) //48
 	// Matrix(m).Dump()
 	// r := groupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"}) //49
@@ -127,5 +127,6 @@ func main() {
 	// }
 	// fmt.Println(totalNQueens(4)) //52
 	// fmt.Println(maxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4})) //53
-	fmt.Println(spiralOrder(m)) //54
+	// fmt.Println(spiralOrder(m)) //54
+	fmt.Println(canJump([]int{3, 2, 1, 0, 4})) //55
 }
