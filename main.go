@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -128,5 +126,13 @@ func main() {
 	// fmt.Println(totalNQueens(4)) //52
 	// fmt.Println(maxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4})) //53
 	// fmt.Println(spiralOrder(m)) //54
-	fmt.Println(canJump([]int{3, 2, 1, 0, 4})) //55
+	// fmt.Println(canJump([]int{3, 2, 1, 0, 4})) //55
+	intervals := [][]int{
+		[]int{1, 3},
+		[]int{2, 6},
+		[]int{8, 10},
+		[]int{15, 18},
+	}
+	r := merge(intervals) //56
+	Matrix(r).Dump()
 }
