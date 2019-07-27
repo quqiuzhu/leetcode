@@ -147,11 +147,19 @@ func main() {
 	// l := rotateRight(NewListNode([]int{1, 2, 3, 4, 5}), 6) //61
 	// l.Dump()
 	// fmt.Println(uniquePaths(7, 3)) //62
+	// m := [][]int{
+	// 	[]int{0, 0, 0},
+	// 	[]int{0, 1, 0},
+	// 	[]int{0, 0, 0},
+	// }
+	// fmt.Println(uniquePathsWithObstacles(m)) //63
+	// Matrix(m).Dump()
 	m := [][]int{
-		[]int{0, 0, 0},
-		[]int{0, 1, 0},
-		[]int{0, 0, 0},
+		[]int{1, 3, 1},
+		[]int{1, 5, 1},
+		[]int{4, 2, 1},
 	}
-	fmt.Println(uniquePathsWithObstacles(m)) //63
+	fmt.Println(minPathSum(m)) //64
 	Matrix(m).Dump()
+
 }

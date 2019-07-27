@@ -65,6 +65,12 @@ images.append([
     [0, 0, 0]
 ])
 
+images.append([
+    [1, 3, 1],
+    [1, 5, 1],
+    [4, 2, 1]
+])
+
 if __name__ == "__main__":
     # for s in sudokus:
     #     gen_byte(s)
