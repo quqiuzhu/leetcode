@@ -128,11 +128,14 @@ func main() {
 	// fmt.Println(spiralOrder(m)) //54
 	// fmt.Println(canJump([]int{3, 2, 1, 0, 4})) //55
 	intervals := [][]int{
-		[]int{1, 3},
-		[]int{2, 6},
+		[]int{1, 2},
+		[]int{3, 5},
+		[]int{6, 7},
 		[]int{8, 10},
-		[]int{15, 18},
+		[]int{12, 16},
 	}
-	r := merge(intervals) //56
+	// r := merge(intervals) //56
+	// Matrix(r).Dump()
+	r := insert(intervals, []int{4, 8}) //57
 	Matrix(r).Dump()
 }
