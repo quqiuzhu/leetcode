@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -139,6 +141,7 @@ func main() {
 	// r := insert(intervals, []int{4, 8}) //57
 	// Matrix(r).Dump()
 	// fmt.Println(lengthOfLastWord("Hello World")) //58
-	r := generateMatrix(5)
-	Matrix(r).Dump()
+	// r := generateMatrix(5) //59
+	// Matrix(r).Dump()
+	fmt.Println(getPermutation(4, 9)) //60
 }
