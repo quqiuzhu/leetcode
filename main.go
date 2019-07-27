@@ -162,5 +162,6 @@ func main() {
 	// fmt.Println(minPathSum(m)) //64
 	// Matrix(m).Dump()
 	// fmt.Println(isNumber(".1")) //65
-	fmt.Println(plusOne([]int{9, 9, 9})) //66
+	// fmt.Println(plusOne([]int{9, 9, 9})) //66
+	fmt.Println(addBinary("1010", "1011")) //67
 }
