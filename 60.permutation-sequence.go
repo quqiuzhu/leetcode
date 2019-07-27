@@ -9,7 +9,7 @@ func getPermutation(n int, k int) string {
 	nums := make([]byte, n)
 	total := 1
 	for i := 0; i < n; i++ {
-		nums[i] = byte(i + 1)
+		nums[i] = byte('0' + i + 1)
 		total *= (i + 1)
 	}
 
@@ -25,8 +25,5 @@ func getPermutation(n int, k int) string {
 		k = k - j*total
 	}
 
-	for i := 0; i < n; i++ {
-		nums[i] = '0' + nums[i]
-	}
 	return string(nums)
 }
