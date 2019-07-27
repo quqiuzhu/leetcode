@@ -154,12 +154,12 @@ func main() {
 	// }
 	// fmt.Println(uniquePathsWithObstacles(m)) //63
 	// Matrix(m).Dump()
-	m := [][]int{
-		[]int{1, 3, 1},
-		[]int{1, 5, 1},
-		[]int{4, 2, 1},
-	}
-	fmt.Println(minPathSum(m)) //64
-	Matrix(m).Dump()
-
+	// m := [][]int{
+	// 	[]int{1, 3, 1},
+	// 	[]int{1, 5, 1},
+	// 	[]int{4, 2, 1},
+	// }
+	// fmt.Println(minPathSum(m)) //64
+	// Matrix(m).Dump()
+	fmt.Println(isNumber(".1")) //65
 }
