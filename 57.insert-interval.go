@@ -35,21 +35,18 @@ func insert(intervals [][]int, newInterval []int) [][]int {
 	y := insertPosition(intervals, newInterval[1])
 
 	var r [][]int
-	var first, second int
-	first = newInterval[0]
-	second = newInterval[1]
-	if x != 0 && intervals[x-1][1] >= first {
-		first = intervals[x-1][0]
+	if x != 0 && intervals[x-1][1] >= newInterval[0] {
+		newInterval[0] = intervals[x-1][0]
 		x--
 	}
-	if y != 0 && intervals[y-1][1] > second {
-		second = intervals[y-1][1]
+	if y != 0 && intervals[y-1][1] > newInterval[1] {
+		newInterval[1] = intervals[y-1][1]
 	}
 
 	for i := 0; i < x; i++ {
 		r = append(r, intervals[i])
 	}
-	r = append(r, []int{first, second})
+	r = append(r, newInterval)
 	for i := y; i < len(intervals); i++ {
 		r = append(r, intervals[i])
 	}
