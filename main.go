@@ -146,5 +146,12 @@ func main() {
 	// fmt.Println(getPermutation(4, 9)) //60
 	// l := rotateRight(NewListNode([]int{1, 2, 3, 4, 5}), 6) //61
 	// l.Dump()
-	fmt.Println(uniquePaths(7, 3)) //62
+	// fmt.Println(uniquePaths(7, 3)) //62
+	m := [][]int{
+		[]int{0, 0, 0},
+		[]int{0, 1, 0},
+		[]int{0, 0, 0},
+	}
+	fmt.Println(uniquePathsWithObstacles(m)) //63
+	Matrix(m).Dump()
 }
