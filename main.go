@@ -163,5 +163,10 @@ func main() {
 	// Matrix(m).Dump()
 	// fmt.Println(isNumber(".1")) //65
 	// fmt.Println(plusOne([]int{9, 9, 9})) //66
-	fmt.Println(addBinary("1010", "1011")) //67
+	// fmt.Println(addBinary("1010", "1011")) //67
+	strs := []string{"This", "is", "an", "example", "of", "text", "justification."}
+	ss := fullJustify(strs, 16) //68
+	for i := 0; i < len(ss); i++ {
+		fmt.Println(ss[i])
+	}
 }
