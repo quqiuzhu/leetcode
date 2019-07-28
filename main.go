@@ -169,5 +169,6 @@ func main() {
 	// for i := 0; i < len(ss); i++ {
 	// 	fmt.Println(ss[i])
 	// }
-	fmt.Println(mySqrt(8)) //69
+	// fmt.Println(mySqrt(8)) //69
+	fmt.Println(climbStairs(3)) //70
 }
