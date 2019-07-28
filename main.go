@@ -186,5 +186,6 @@ func main() {
 	// sortColors(colors) //75
 	// fmt.Println(colors)
 	// fmt.Println(minWindow("aa", "aa")) //76
-	Matrix(combine(4, 2)).Dump() //77
+	// Matrix(combine(4, 2)).Dump() //77
+	Matrix(subsets([]int{1, 2, 3})).Dump() //78
 }
