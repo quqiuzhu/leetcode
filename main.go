@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -187,5 +185,6 @@ func main() {
 	// colors := []int{2, 0, 2, 1, 1, 0}
 	// sortColors(colors) //75
 	// fmt.Println(colors)
-	fmt.Println(minWindow("aa", "aa")) //76
+	// fmt.Println(minWindow("aa", "aa")) //76
+	Matrix(combine(4, 2)).Dump() //77
 }
