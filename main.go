@@ -180,8 +180,11 @@ func main() {
 	// }
 	// setZeroes(m) //73
 	// Matrix(m).Dump()
-	m := [][]int{
-		[]int{1, 1},
-	}
-	fmt.Println(searchMatrix(m, 12)) //74
+	// m := [][]int{
+	// 	[]int{1, 1},
+	// }
+	// fmt.Println(searchMatrix(m, 12)) //74
+	colors := []int{2, 0, 2, 1, 1, 0}
+	sortColors(colors) //75
+	fmt.Println(colors)
 }
