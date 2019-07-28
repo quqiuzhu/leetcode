@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -172,5 +170,12 @@ func main() {
 	// fmt.Println(mySqrt(8)) //69
 	// fmt.Println(climbStairs(3)) //70
 	// fmt.Println(simplifyPath("/home/")) //71
-	fmt.Println(minDistance("intention", "execution")) //72
+	// fmt.Println(minDistance("intention", "execution")) //72
+	m := [][]int{
+		[]int{0, 1, 2, 0},
+		[]int{3, 4, 5, 2},
+		[]int{1, 3, 1, 5},
+	}
+	setZeroes(m) //73
+	Matrix(m).Dump()
 }
