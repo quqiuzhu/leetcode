@@ -170,5 +170,6 @@ func main() {
 	// 	fmt.Println(ss[i])
 	// }
 	// fmt.Println(mySqrt(8)) //69
-	fmt.Println(climbStairs(3)) //70
+	// fmt.Println(climbStairs(3)) //70
+	fmt.Println(simplifyPath("/home/")) //71
 }
