@@ -190,10 +190,13 @@ func main() {
 	// fmt.Println(minWindow("aa", "aa")) //76
 	// Matrix(combine(4, 2)).Dump() //77
 	// Matrix(subsets([]int{1, 2, 3})).Dump() //78
-	board := [][]byte{
-		[]byte{'A', 'B', 'C', 'E'},
-		[]byte{'S', 'F', 'C', 'S'},
-		[]byte{'A', 'D', 'E', 'E'},
-	}
-	fmt.Println(exist(board, "SEE")) //79
+	// board := [][]byte{
+	// 	[]byte{'A', 'B', 'C', 'E'},
+	// 	[]byte{'S', 'F', 'C', 'S'},
+	// 	[]byte{'A', 'D', 'E', 'E'},
+	// }
+	// fmt.Println(exist(board, "SEE")) //79
+	l := []int{1, 1, 1, 2, 2, 3}
+	fmt.Println(removeDuplicatesII(l)) //80
+	fmt.Println(l)
 }
