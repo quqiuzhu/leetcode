@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -187,5 +189,11 @@ func main() {
 	// fmt.Println(colors)
 	// fmt.Println(minWindow("aa", "aa")) //76
 	// Matrix(combine(4, 2)).Dump() //77
-	Matrix(subsets([]int{1, 2, 3})).Dump() //78
+	// Matrix(subsets([]int{1, 2, 3})).Dump() //78
+	board := [][]byte{
+		[]byte{'A', 'B', 'C', 'E'},
+		[]byte{'S', 'F', 'C', 'S'},
+		[]byte{'A', 'D', 'E', 'E'},
+	}
+	fmt.Println(exist(board, "SEE")) //79
 }

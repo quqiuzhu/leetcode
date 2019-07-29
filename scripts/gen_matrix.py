@@ -45,6 +45,12 @@ sudokus.append([
     [".", ".", ".", ".", "8", ".", ".", "7", "9"]
 ])
 
+sudokus.append([
+    ['A', 'B', 'C', 'E'],
+    ['S', 'F', 'C', 'S'],
+    ['A', 'D', 'E', 'E']
+])
+
 images = []
 images.append([
     [1, 2, 3],
@@ -84,8 +90,8 @@ images.append([
 ])
 
 if __name__ == "__main__":
-    # for s in sudokus:
-    #     gen_byte(s)
+    for s in sudokus:
+        gen_byte(s)
     for i in images:
         gen_int(i)
 
