@@ -196,7 +196,8 @@ func main() {
 	// 	[]byte{'A', 'D', 'E', 'E'},
 	// }
 	// fmt.Println(exist(board, "SEE")) //79
-	l := []int{1, 1, 1, 2, 2, 3}
-	fmt.Println(removeDuplicatesII(l)) //80
-	fmt.Println(l)
+	// l := []int{1, 1, 1, 2, 2, 3}
+	// fmt.Println(removeDuplicatesII(l)) //80
+	// fmt.Println(l)
+	fmt.Println(searchII([]int{2, 5, 6, 0, 0, 1, 2}, 3)) //81
 }
