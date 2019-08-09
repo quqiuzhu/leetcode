@@ -12,7 +12,7 @@ package main
  *     Next *ListNode
  * }
  */
-func deleteDuplicates(head *ListNode) *ListNode {
+func deleteDuplicatesII(head *ListNode) *ListNode {
 	var candidate, it, h, t *ListNode
 	var count int
 
@@ -46,3 +46,8 @@ func deleteDuplicates(head *ListNode) *ListNode {
 
 	return h
 }
+
+// 与83题重名， 提交时取消下列注释
+// func deleteDuplicates(head *ListNode) *ListNode {
+// 	return deleteDuplicatesII(head)
+// }

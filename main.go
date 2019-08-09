@@ -198,7 +198,10 @@ func main() {
 	// fmt.Println(removeDuplicatesII(l)) //80
 	// fmt.Println(l)
 	// fmt.Println(searchII([]int{2, 5, 6, 0, 0, 1, 2}, 3)) //81
-	l := NewListNode([]int{1, 2, 3, 3, 4, 4, 5})
-	r := deleteDuplicates(l) //82
+	// l := NewListNode([]int{1, 2, 3, 3, 4, 4, 5})
+	// r := deleteDuplicatesII(l) //82
+	// r.Dump()
+	l := NewListNode([]int{1, 2, 3, 3, 4, 4, 5, 5})
+	r := deleteDuplicates(l) //83
 	r.Dump()
 }
