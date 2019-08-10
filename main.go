@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -201,7 +203,8 @@ func main() {
 	// l := NewListNode([]int{1, 2, 3, 3, 4, 4, 5})
 	// r := deleteDuplicatesII(l) //82
 	// r.Dump()
-	l := NewListNode([]int{1, 2, 3, 3, 4, 4, 5, 5})
-	r := deleteDuplicates(l) //83
-	r.Dump()
+	// l := NewListNode([]int{1, 2, 3, 3, 4, 4, 5, 5})
+	// r := deleteDuplicates(l) //83
+	// r.Dump()
+	fmt.Println(largestRectangleArea([]int{2, 1, 5, 6, 2, 3})) //84
 }
