@@ -216,5 +216,9 @@ func main() {
 	// fmt.Println(maximalRectangle(m)) //85
 	// l := NewListNode([]int{1, 4, 3, 2, 5, 2})
 	// partition(l, 3).Dump() //86
-	fmt.Println(isScramble("great", "rgeat")) //87
+	// fmt.Println(isScramble("great", "rgeat")) //87
+	l1 := []int{1, 2, 4, 5, 6, 0}
+	l2 := []int{3}
+	mergeII(l1, 5, l2, 1) //88
+	fmt.Println(l1)
 }
