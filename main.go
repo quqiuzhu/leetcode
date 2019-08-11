@@ -206,5 +206,12 @@ func main() {
 	// l := NewListNode([]int{1, 2, 3, 3, 4, 4, 5, 5})
 	// r := deleteDuplicates(l) //83
 	// r.Dump()
-	fmt.Println(largestRectangleArea([]int{2, 1, 5, 6, 2, 3})) //84
+	// fmt.Println(largestRectangleArea([]int{2, 1, 5, 6, 2, 3})) //84
+	m := [][]byte{
+		[]byte{'1', '0', '1', '0', '0'},
+		[]byte{'1', '0', '1', '1', '1'},
+		[]byte{'1', '1', '1', '1', '1'},
+		[]byte{'1', '0', '0', '1', '0'},
+	}
+	fmt.Println(maximalRectangle(m)) //85
 }
