@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -207,11 +205,13 @@ func main() {
 	// r := deleteDuplicates(l) //83
 	// r.Dump()
 	// fmt.Println(largestRectangleArea([]int{2, 1, 5, 6, 2, 3})) //84
-	m := [][]byte{
-		[]byte{'1', '0', '1', '0', '0'},
-		[]byte{'1', '0', '1', '1', '1'},
-		[]byte{'1', '1', '1', '1', '1'},
-		[]byte{'1', '0', '0', '1', '0'},
-	}
-	fmt.Println(maximalRectangle(m)) //85
+	// m := [][]byte{
+	// 	[]byte{'1', '0', '1', '0', '0'},
+	// 	[]byte{'1', '0', '1', '1', '1'},
+	// 	[]byte{'1', '1', '1', '1', '1'},
+	// 	[]byte{'1', '0', '0', '1', '0'},
+	// }
+	// fmt.Println(maximalRectangle(m)) //85
+	l := NewListNode([]int{1, 4, 3, 2, 5, 2})
+	partition(l, 3).Dump() //86
 }
