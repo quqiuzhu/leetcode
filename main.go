@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -223,5 +221,7 @@ func main() {
 	// fmt.Println(l1)
 	// fmt.Println(grayCode(3)) //89
 	// Matrix(subsetsWithDup([]int{1, 1, 2, 2})).Dump() //90
-	fmt.Println(numDecodings("301")) //91
+	// fmt.Println(numDecodings("301")) //91
+	l := NewListNode([]int{1, 2, 3, 4, 5})
+	reverseBetween(l, 1, 2).Dump() //92
 }
