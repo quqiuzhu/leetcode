@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -226,8 +228,9 @@ func main() {
 	// reverseBetween(l, 1, 2).Dump() //92
 	// fmt.Println(restoreIpAddresses("25525511135")) //93
 	// inorderTraversal(nil)     //94
-	trees := generateTrees(3) //95
-	for _, tree := range trees {
-		tree.Dump()
-	}
+	// trees := generateTrees(3) //95
+	// for _, tree := range trees {
+	// 	tree.Dump()
+	// }
+	fmt.Println(numTrees(3)) //96
 }
