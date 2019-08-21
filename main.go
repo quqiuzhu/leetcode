@@ -225,5 +225,9 @@ func main() {
 	// l := NewListNode([]int{1, 2, 3, 4, 5})
 	// reverseBetween(l, 1, 2).Dump() //92
 	// fmt.Println(restoreIpAddresses("25525511135")) //93
-	inorderTraversal(nil) //94
+	// inorderTraversal(nil)     //94
+	trees := generateTrees(3) //95
+	for _, tree := range trees {
+		tree.Dump()
+	}
 }
