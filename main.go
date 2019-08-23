@@ -233,5 +233,6 @@ func main() {
 	// 	tree.Dump()
 	// }
 	// fmt.Println(numTrees(3)) //96
-	fmt.Println(isInterleave("aa", "ab", "abaa")) //97
+	// fmt.Println(isInterleave("aa", "ab", "abaa")) //97
+	fmt.Println(isValidBST(NewTreeNode([]int{10, 5, 15, -1, -1, 6, 20}))) //98
 }
