@@ -257,7 +257,10 @@ func main() {
 	// fmt.Println(minDepth(NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7}))) //111
 	// tree := NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7})
 	// fmt.Println(hasPathSum(tree, 37)) //112
-	tree := NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7})
-	m := pathSum(tree, 30) //113
-	Matrix(m).Dump()
+	// tree := NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7})
+	// m := pathSum(tree, 30) //113
+	// Matrix(m).Dump()
+	tree := NewTreeNode([]int{1, 2, 5, 3, 4, -1, 6})
+	flatten(tree) //114
+	tree.Dump()
 }
