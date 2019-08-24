@@ -251,5 +251,6 @@ func main() {
 	// tree.Dump()
 	// m := levelOrderBottom(NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7})) //107
 	// Matrix(m).Dump()
-	sortedArrayToBST([]int{1, 2, 3, 4, 5}).Dump() //108
+	// sortedArrayToBST([]int{1, 2, 3, 4, 5}).Dump() //108
+	sortedListToBST(NewListNode([]int{1, 2, 3, 4, 5})).Dump() //109
 }
