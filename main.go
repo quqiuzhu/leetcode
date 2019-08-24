@@ -238,7 +238,8 @@ func main() {
 	// tree := NewTreeNode([]int{1, 3, -1, -1, 2})
 	// recoverTree(tree) //99
 	// tree.Dump()
-	t1 := NewTreeNode([]int{1, 2})
-	t2 := NewTreeNode([]int{1, -1, 2})
-	fmt.Println(isSameTree(t1, t2)) //100
+	// t1 := NewTreeNode([]int{1, 2})
+	// t2 := NewTreeNode([]int{1, -1, 2})
+	// fmt.Println(isSameTree(t1, t2)) //100
+	fmt.Println(isSymmetric(NewTreeNode([]int{1, 2, 2, 3, 4, 4, 3}))) //101
 }
