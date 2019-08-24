@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -252,5 +254,6 @@ func main() {
 	// m := levelOrderBottom(NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7})) //107
 	// Matrix(m).Dump()
 	// sortedArrayToBST([]int{1, 2, 3, 4, 5}).Dump() //108
-	sortedListToBST(NewListNode([]int{1, 2, 3, 4, 5})).Dump() //109
+	// sortedListToBST(NewListNode([]int{1, 2, 3, 4, 5})).Dump() //109
+	fmt.Println(isBalanced(NewTreeNode([]int{1, 2, 2, 3, 3, -1, -1, 4, 4}))) //110
 }
