@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -234,5 +232,8 @@ func main() {
 	// }
 	// fmt.Println(numTrees(3)) //96
 	// fmt.Println(isInterleave("aa", "ab", "abaa")) //97
-	fmt.Println(isValidBST(NewTreeNode([]int{10, 5, 15, -1, -1, 6, 20}))) //98
+	// fmt.Println(isValidBST(NewTreeNode([]int{10, 5, 15, -1, -1, 6, 20}))) //98
+	tree := NewTreeNode([]int{1, 3, -1, -1, 2})
+	recoverTree(tree) //99
+	tree.Dump()
 }
