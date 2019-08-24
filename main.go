@@ -240,6 +240,8 @@ func main() {
 	// t2 := NewTreeNode([]int{1, -1, 2})
 	// fmt.Println(isSameTree(t1, t2)) //100
 	// fmt.Println(isSymmetric(NewTreeNode([]int{1, 2, 2, 3, 4, 4, 3}))) //101
-	m := levelOrder(NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7})) //102
+	// m := levelOrder(NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7})) //102
+	// Matrix(m).Dump()
+	m := zigzagLevelOrder(NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7})) //103
 	Matrix(m).Dump()
 }
