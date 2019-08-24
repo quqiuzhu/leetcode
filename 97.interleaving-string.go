@@ -36,11 +36,5 @@ func isInterleave(s1 string, s2 string, s3 string) bool {
 		}
 	}
 
-	for i = 0; i < n; i++ {
-		if b[m-1][i] {
-			return true
-		}
-	}
-
-	return false
+	return b[m-1][n-1]
 }
