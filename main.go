@@ -245,6 +245,8 @@ func main() {
 	// m := zigzagLevelOrder(NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7})) //103
 	// Matrix(m).Dump()
 	// fmt.Println(maxDepth(NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7}))) //104
-	tree := buildTree([]int{3, 9, 20, 15, 7}, []int{9, 3, 15, 20, 7}) //105
+	// tree := buildTree([]int{3, 9, 20, 15, 7}, []int{9, 3, 15, 20, 7}) //105
+	// tree.Dump()
+	tree := buildTreeII([]int{9, 3, 15, 20, 7}, []int{9, 15, 7, 20, 3}) //106
 	tree.Dump()
 }
