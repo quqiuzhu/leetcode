@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -246,5 +244,7 @@ func main() {
 	// Matrix(m).Dump()
 	// m := zigzagLevelOrder(NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7})) //103
 	// Matrix(m).Dump()
-	fmt.Println(maxDepth(NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7}))) //104
+	// fmt.Println(maxDepth(NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7}))) //104
+	tree := buildTree([]int{3, 9, 20, 15, 7}, []int{9, 3, 15, 20, 7}) //105
+	tree.Dump()
 }
