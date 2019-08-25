@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -260,7 +262,8 @@ func main() {
 	// tree := NewTreeNode([]int{3, 9, 20, -1, -1, 15, 7})
 	// m := pathSum(tree, 30) //113
 	// Matrix(m).Dump()
-	tree := NewTreeNode([]int{1, 2, 5, 3, 4, -1, 6})
-	flatten(tree) //114
-	tree.Dump()
+	// tree := NewTreeNode([]int{1, 2, 5, 3, 4, -1, 6})
+	// flatten(tree) //114
+	// tree.Dump()
+	fmt.Println(numDistinct("babgbag", "bag")) //115
 }
