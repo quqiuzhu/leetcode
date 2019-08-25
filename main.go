@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -265,5 +267,6 @@ func main() {
 	// tree.Dump()
 	// fmt.Println(numDistinct("babgbag", "bag")) //115
 	// TODO 116 117 not support golang
-	Matrix(generate(5)).Dump() //118
+	// Matrix(generate(7)).Dump() //118
+	fmt.Println(getRow(5)) //119
 }
