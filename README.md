@@ -1,8 +1,11 @@
 # leetcode
-leetcode golang vscode
 
-#### algorithms
+quqiuzhu's leetcode solutions in golang with vscode
 
-- dynamic programming 
+## algorithms
+
+- dynamic programming
 - backtracking
 - greedy
+- depth first search
+- breadth first search
