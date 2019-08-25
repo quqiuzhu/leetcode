@@ -276,5 +276,6 @@ func main() {
 	// 	[]int{4, 1, 8, 3},
 	// }
 	// fmt.Println(minimumTotal(triangle)) //120
-	fmt.Println(maxProfit([]int{7, 6, 4, 3, 1})) //121
+	// fmt.Println(maxProfit([]int{7, 6, 4, 3, 1})) //121
+	fmt.Println(maxProfitII([]int{3, 2, 6, 5, 0, 3})) //122
 }
