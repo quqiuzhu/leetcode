@@ -268,5 +268,12 @@ func main() {
 	// fmt.Println(numDistinct("babgbag", "bag")) //115
 	// TODO 116 117 not support golang
 	// Matrix(generate(7)).Dump() //118
-	fmt.Println(getRow(5)) //119
+	// fmt.Println(getRow(5)) //119
+	triangle := [][]int{
+		[]int{2},
+		[]int{3, 4},
+		[]int{6, 5, 7},
+		[]int{4, 1, 8, 3},
+	}
+	fmt.Println(minimumTotal(triangle)) //120
 }
