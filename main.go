@@ -278,5 +278,6 @@ func main() {
 	// fmt.Println(minimumTotal(triangle)) //120
 	// fmt.Println(maxProfit([]int{7, 6, 4, 3, 1})) //121
 	// fmt.Println(maxProfitII([]int{3, 2, 6, 5, 0, 3})) //122
-	fmt.Println(maxProfitIII([]int{7, 6, 4, 3, 1})) //123
+	// fmt.Println(maxProfitIII([]int{7, 6, 4, 3, 1})) //123
+	fmt.Println(maxPathSum(NewTreeNode([]int{1, 2, 3}))) //124
 }
