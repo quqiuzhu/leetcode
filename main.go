@@ -281,6 +281,7 @@ func main() {
 	// fmt.Println(maxProfitIII([]int{7, 6, 4, 3, 1})) //123
 	// fmt.Println(maxPathSum(NewTreeNode([]int{1, 2, 3}))) //124
 	// fmt.Println(isPalindromeII("A man, a plan, a canal: Panama")) //125
-	ladders := findLadders("hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"}) //126
-	fmt.Println(ladders)
+	// ladders := findLadders("hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"}) //126
+	// fmt.Println(ladders)
+	fmt.Println(ladderLength("hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"})) //127
 }
