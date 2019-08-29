@@ -284,5 +284,6 @@ func main() {
 	// ladders := findLadders("hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"}) //126
 	// fmt.Println(ladders)
 	// fmt.Println(ladderLength("hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"})) //127
-	fmt.Println(longestConsecutive([]int{1, 3, 5, 2, 4})) //128
+	// fmt.Println(longestConsecutive([]int{1, 3, 5, 2, 4})) //128
+	fmt.Println(sumNumbers(NewTreeNode([]int{4, 9, 0, 5, 1}))) //129
 }
