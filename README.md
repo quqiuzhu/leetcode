@@ -9,3 +9,4 @@ quqiuzhu's leetcode solutions in golang with vscode
 - greedy
 - depth first search
 - breadth first search
+- union find
