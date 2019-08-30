@@ -297,5 +297,6 @@ func main() {
 	// for i := 0; i < len(borad); i++ {
 	// 	fmt.Println(string(borad[i]))
 	// }
-	fmt.Println(partPalindrome("aab")) //131
+	// fmt.Println(partPalindrome("aab")) //131
+	fmt.Println(minCut("aab")) //132
 }
