@@ -285,5 +285,16 @@ func main() {
 	// fmt.Println(ladders)
 	// fmt.Println(ladderLength("hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"})) //127
 	// fmt.Println(longestConsecutive([]int{1, 3, 5, 2, 4})) //128
-	fmt.Println(sumNumbers(NewTreeNode([]int{4, 9, 0, 5, 1}))) //129
+	// fmt.Println(sumNumbers(NewTreeNode([]int{4, 9, 0, 5, 1}))) //129
+	borad := [][]byte{
+		[]byte{'O', 'X', 'X', 'O', 'X'},
+		[]byte{'X', 'O', 'O', 'X', 'O'},
+		[]byte{'X', 'O', 'X', 'O', 'X'},
+		[]byte{'O', 'X', 'O', 'O', 'O'},
+		[]byte{'X', 'X', 'O', 'X', 'O'},
+	}
+	solve(borad) //130
+	for i := 0; i < len(borad); i++ {
+		fmt.Println(string(borad[i]))
+	}
 }

@@ -58,6 +58,14 @@ sudokus.append([
     ['A', 'D', 'E', 'E']
 ])
 
+sudokus.append([
+    ["O", "X", "X", "O", "X"],
+    ["X", "O", "O", "X", "O"],
+    ["X", "O", "X", "O", "X"],
+    ["O", "X", "O", "O", "O"],
+    ["X", "X", "O", "X", "O"]
+])
+
 images = []
 images.append([
     [1, 2, 3],
