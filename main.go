@@ -305,5 +305,9 @@ func main() {
 	// fmt.Println(singleNumber([]int{2, 2, 1})) //136
 	// fmt.Println(singleNumberII([]int{2, 2, 3, 2})) //137
 	// TODO 138 not support golang
-	fmt.Println(wordBreak("leetcode", []string{"leet", "code"})) //139
+	// fmt.Println(wordBreak("leetcode", []string{"leet", "code"})) //139
+	words := wordBreakII("catsandog", []string{"cats", "dog", "sand", "and", "cat"}) //140
+	for i := 0; i < len(words); i++ {
+		fmt.Println(words[i])
+	}
 }
