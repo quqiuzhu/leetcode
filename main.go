@@ -301,5 +301,6 @@ func main() {
 	// fmt.Println(minCut("aab")) //132
 	// TODO 133 not support golang
 	// fmt.Println(canCompleteCircuit([]int{2, 0, 3}, []int{1, 2, 2})) //134
-	fmt.Println(candy([]int{1, 0, 2})) //135
+	// fmt.Println(candy([]int{1, 0, 2})) //135
+	fmt.Println(singleNumber([]int{2, 2, 1})) //136
 }
