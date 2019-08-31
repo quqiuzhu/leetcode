@@ -303,5 +303,7 @@ func main() {
 	// fmt.Println(canCompleteCircuit([]int{2, 0, 3}, []int{1, 2, 2})) //134
 	// fmt.Println(candy([]int{1, 0, 2})) //135
 	// fmt.Println(singleNumber([]int{2, 2, 1})) //136
-	fmt.Println(singleNumberII([]int{2, 2, 3, 2})) //137
+	// fmt.Println(singleNumberII([]int{2, 2, 3, 2})) //137
+	// TODO 138 not support golang
+	fmt.Println(wordBreak("leetcode", []string{"leet", "code"})) //139
 }
