@@ -319,5 +319,6 @@ func main() {
 	// l := NewListNode([]int{1, 2, 3, 4, 5})
 	// reorderList(l) //143
 	// l.Dump()
-	fmt.Println(preorderTraversal(NewTreeNode([]int{1, -1, 2, 3}))) //144
+	// fmt.Println(preorderTraversal(NewTreeNode([]int{1, -1, 2, 3}))) //144
+	fmt.Println(postorderTraversal(NewTreeNode([]int{1, -1, 2, 3}))) //145
 }
