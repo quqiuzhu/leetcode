@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -314,7 +316,8 @@ func main() {
 	// l := NewListNode([]int{3, 2, 0, -4})
 	// l.Next.Next.Next.Next = l.Next
 	// fmt.Println(detectCycle(l).Val) //142
-	l := NewListNode([]int{1, 2, 3, 4, 5})
-	reorderList(l) //143
-	l.Dump()
+	// l := NewListNode([]int{1, 2, 3, 4, 5})
+	// reorderList(l) //143
+	// l.Dump()
+	fmt.Println(preorderTraversal(NewTreeNode([]int{1, -1, 2, 3}))) //144
 }
