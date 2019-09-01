@@ -353,8 +353,9 @@ func main() {
 	// 	[]int{0, -9},
 	// }
 	// fmt.Println(maxPoints(points)) //149
-	fmt.Println(evalRPN([]string{ // 150
-		"10", "6", "9", "3", "+", "-11", "*",
-		"/", "*", "17", "+", "5", "+",
-	}))
+	// fmt.Println(evalRPN([]string{ // 150
+	// 	"10", "6", "9", "3", "+", "-11", "*",
+	// 	"/", "*", "17", "+", "5", "+",
+	// }))
+	fmt.Println(reverseWords("the sky is blue")) //151
 }
