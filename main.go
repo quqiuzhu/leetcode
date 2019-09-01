@@ -310,7 +310,10 @@ func main() {
 	// for i := 0; i < len(words); i++ {
 	// 	fmt.Println(words[i])
 	// }
+	// l := NewListNode([]int{3, 2, 0, -4})
+	// l.Next.Next.Next.Next = l
+	// fmt.Println(hasCycle(l)) //141
 	l := NewListNode([]int{3, 2, 0, -4})
-	l.Next.Next.Next.Next = l
-	fmt.Println(hasCycle(l)) //141
+	l.Next.Next.Next.Next = l.Next
+	fmt.Println(detectCycle(l).Val) //142
 }
