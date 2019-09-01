@@ -330,6 +330,7 @@ func main() {
 	// fmt.Println(cache.Get(1)) //-1
 	// fmt.Println(cache.Get(3))
 	// fmt.Println(cache.Get(4))
-	l := insertionSortList(NewListNode([]int{1, 2, 3, 4})) //147
-	l.Dump()
+	// l := insertionSortList(NewListNode([]int{1, 2, 3, 4})) //147
+	// l.Dump()
+	sortList(NewListNode([]int{4, 2, 1, 3})).Dump() //148
 }
