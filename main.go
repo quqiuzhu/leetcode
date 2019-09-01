@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -332,5 +334,23 @@ func main() {
 	// fmt.Println(cache.Get(4))
 	// l := insertionSortList(NewListNode([]int{1, 2, 3, 4})) //147
 	// l.Dump()
-	sortList(NewListNode([]int{4, 2, 1, 3})).Dump() //148
+	// sortList(NewListNode([]int{4, 2, 1, 3})).Dump() //148
+	points := [][]int{
+		[]int{0, -12},
+		[]int{5, 2},
+		[]int{2, 5},
+		[]int{0, -5},
+		[]int{1, 5},
+		[]int{2, -2},
+		[]int{5, -4},
+		[]int{3, 4},
+		[]int{-2, 4},
+		[]int{-1, 4},
+		[]int{0, -5},
+		[]int{0, -8},
+		[]int{-2, -1},
+		[]int{0, -11},
+		[]int{0, -9},
+	}
+	fmt.Println(maxPoints(points)) //149
 }
