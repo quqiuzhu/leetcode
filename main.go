@@ -320,5 +320,16 @@ func main() {
 	// reorderList(l) //143
 	// l.Dump()
 	// fmt.Println(preorderTraversal(NewTreeNode([]int{1, -1, 2, 3}))) //144
-	fmt.Println(postorderTraversal(NewTreeNode([]int{1, -1, 2, 3}))) //145
+	// fmt.Println(postorderTraversal(NewTreeNode([]int{1, -1, 2, 3}))) //145
+	lru := Constructor(2) //146
+	cache := &lru
+	cache.Put(1, 1)
+	cache.Put(2, 2)
+	fmt.Println(cache.Get(1))
+	cache.Put(3, 3)
+	fmt.Println(cache.Get(2)) //-1
+	cache.Put(4, 4)
+	fmt.Println(cache.Get(1)) //-1
+	fmt.Println(cache.Get(3))
+	fmt.Println(cache.Get(4))
 }
