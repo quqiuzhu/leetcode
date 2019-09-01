@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -321,15 +319,17 @@ func main() {
 	// l.Dump()
 	// fmt.Println(preorderTraversal(NewTreeNode([]int{1, -1, 2, 3}))) //144
 	// fmt.Println(postorderTraversal(NewTreeNode([]int{1, -1, 2, 3}))) //145
-	lru := Constructor(2) //146
-	cache := &lru
-	cache.Put(1, 1)
-	cache.Put(2, 2)
-	fmt.Println(cache.Get(1))
-	cache.Put(3, 3)
-	fmt.Println(cache.Get(2)) //-1
-	cache.Put(4, 4)
-	fmt.Println(cache.Get(1)) //-1
-	fmt.Println(cache.Get(3))
-	fmt.Println(cache.Get(4))
+	// lru := Constructor(2) //146
+	// cache := &lru
+	// cache.Put(1, 1)
+	// cache.Put(2, 2)
+	// fmt.Println(cache.Get(1))
+	// cache.Put(3, 3)
+	// fmt.Println(cache.Get(2)) //-1
+	// cache.Put(4, 4)
+	// fmt.Println(cache.Get(1)) //-1
+	// fmt.Println(cache.Get(3))
+	// fmt.Println(cache.Get(4))
+	l := insertionSortList(NewListNode([]int{1, 2, 3, 4})) //147
+	l.Dump()
 }
