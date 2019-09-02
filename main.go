@@ -357,5 +357,6 @@ func main() {
 	// 	"10", "6", "9", "3", "+", "-11", "*",
 	// 	"/", "*", "17", "+", "5", "+",
 	// }))
-	fmt.Println(reverseWords("the sky is blue")) //151
+	// fmt.Println(reverseWords("the sky is blue")) //151
+	fmt.Println(maxProduct([]int{2, 3, -2, 4})) //152
 }
