@@ -359,5 +359,6 @@ func main() {
 	// }))
 	// fmt.Println(reverseWords("the sky is blue")) //151
 	// fmt.Println(maxProduct([]int{2, 3, -2, 4})) //152
-	fmt.Println(findMin([]int{3, 4, 5, 1, 2})) //154
+	// fmt.Println(findMin([]int{3, 4, 5, 1, 2})) //154
+	fmt.Println(findMinII([]int{2, 2, 2, 0, 1, 2})) //155
 }
