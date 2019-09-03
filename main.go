@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -361,13 +359,17 @@ func main() {
 	// fmt.Println(maxProduct([]int{2, 3, -2, 4})) //152
 	// fmt.Println(findMin([]int{3, 4, 5, 1, 2})) //154
 	// fmt.Println(findMinII([]int{2, 2, 2, 0, 1, 2})) //155
-	s := NewMinStack() //155
-	minStack := &s
-	minStack.Push(-2)
-	minStack.Push(0)
-	minStack.Push(-3)
-	fmt.Println(minStack.GetMin())
-	minStack.Pop()
-	fmt.Println(minStack.Top())
-	fmt.Println(minStack.GetMin())
+	// s := NewMinStack() //155
+	// minStack := &s
+	// minStack.Push(-2)
+	// minStack.Push(0)
+	// minStack.Push(-3)
+	// fmt.Println(minStack.GetMin())
+	// minStack.Pop()
+	// fmt.Println(minStack.Top())
+	// fmt.Println(minStack.GetMin())
+	l1 := NewListNode([]int{4, 1, 8, 4, 5})
+	l2 := NewListNode([]int{5, 0, 1})
+	l2.Next.Next.Next = l1.Next.Next
+	getIntersectionNode(l1, l2).Dump() //160
 }
