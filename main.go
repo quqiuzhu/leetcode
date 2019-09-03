@@ -360,5 +360,14 @@ func main() {
 	// fmt.Println(reverseWords("the sky is blue")) //151
 	// fmt.Println(maxProduct([]int{2, 3, -2, 4})) //152
 	// fmt.Println(findMin([]int{3, 4, 5, 1, 2})) //154
-	fmt.Println(findMinII([]int{2, 2, 2, 0, 1, 2})) //155
+	// fmt.Println(findMinII([]int{2, 2, 2, 0, 1, 2})) //155
+	s := NewMinStack() //155
+	minStack := &s
+	minStack.Push(-2)
+	minStack.Push(0)
+	minStack.Push(-3)
+	fmt.Println(minStack.GetMin())
+	minStack.Pop()
+	fmt.Println(minStack.Top())
+	fmt.Println(minStack.GetMin())
 }
