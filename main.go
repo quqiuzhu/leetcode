@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// fmt.Println(twoSum([]int{3, 2, 4}, 6)) //1
 	// l1 := NewListNode([]int{9, 9})
@@ -368,8 +370,9 @@ func main() {
 	// minStack.Pop()
 	// fmt.Println(minStack.Top())
 	// fmt.Println(minStack.GetMin())
-	l1 := NewListNode([]int{4, 1, 8, 4, 5})
-	l2 := NewListNode([]int{5, 0, 1})
-	l2.Next.Next.Next = l1.Next.Next
-	getIntersectionNode(l1, l2).Dump() //160
+	// l1 := NewListNode([]int{4, 1, 8, 4, 5})
+	// l2 := NewListNode([]int{5, 0, 1})
+	// l2.Next.Next.Next = l1.Next.Next
+	// getIntersectionNode(l1, l2).Dump() //160
+	fmt.Println(findPeakElement([]int{3, 4, 3, 2, 1})) //162
 }
